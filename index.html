@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="nav">
+            <a class="nav_link" href="#">Главная</a>
+            <a class="nav_link" href="#">Правила</a>
+            <a class="nav_link" href="#">Отзывы</a>
+            <a class="nav_link" href="#">Поддержка</a>
+            <a id="tg_nav" class="nav_link" href="#" target="_blank">Telegram</a>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <div class="obmen">
+
+                <div class="select is-active">
+                    <div class="select_head">
+                        <span class="select_current">Что отдаёте?</span>
+                        <div class="select_icon">&times;</div>
+                    </div>
+    
+                    <div class="select_body">
+                        <div class="select_item">BTC</div>
+                        <div class="select_item">ETH</div>
+                        <div class="select_item">USDT</div>
+                        <div class="select_item">Tinkoff RUB</div>
+                        <div class="select_item">Sber RUB</div>
+                    </div>
+                </div>
+                <div class="colvo1">
+                    <form>
+                        <span class="colvo_text">Введите количество:<br></span>
+                        <input type="number" id="s_colvo" placeholder="Сколько отдаёте?">
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="obmen1"></div>
+                <div class="vibor is-active1">
+                    <div class="select_head1">
+                        <span class="select_current1">Что принимаете?</span>
+                        <div class="select_icon1">&times;</div>
+                    </div>
+        
+                    <div class="select_body1">
+                        <div class="select_item1">BTC</div>
+                        <div class="select_item1">ETH</div>
+                        <div class="select_item1">USDT</div>
+                        <div class="select_item1">Tinkoff RUB</div>
+                        <div class="select_item1">Sber RUB</div>
+                    </div>
+                </div>
+                <div class="colvo2">
+                    <form>
+                        <span class="colvo_text">Введите количество:<br></span>
+                        <input type="number" id="p_colvo" placeholder="Сколько принимаете?">
+                    </form>
+                </div>
+            </div>
+                
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
